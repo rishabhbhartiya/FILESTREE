@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: folder-structure-app
-    runtime: python
-    buildCommand: ""
-    startCommand: gunicorn app:app
-    envVars:
-      - key: FLASK_ENV
-        value: production
